@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- Primary SEO -->
+    <title>Privacy Policy | Wyoming Teleprompter</title>
+    <meta name="description" content="Privacy policy for Wyoming Teleprompter teleprompter services. Learn how we protect your data. A Claduta Corp subsidiary.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://wyomingteleprompter.com/privacy.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wyomingteleprompter.com/privacy.html">
+    <meta property="og:title" content="Privacy Policy | Wyoming Teleprompter">
+    <meta property="og:site_name" content="Wyoming Teleprompter">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%236b8fa3'/%3E%3Crect x='30' y='25' width='40' height='30' rx='3' fill='%23080a0c'/%3E%3Crect x='35' y='30' width='30' height='20' fill='%236b8fa3' opacity='0.3'/%3E%3Crect x='38' y='60' width='24' height='4' fill='%23080a0c'/%3E%3Crect x='44' y='64' width='12' height='12' fill='%23080a0c'/%3E%3C/svg%3E">
+    <style>
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+        :root {
+            --bg-void:#080a0c;
+            --bg-deep:#0c0f12;
+            --bg-elevated:#151a1f;
+            --steel:#6b8fa3;
+            --steel-light:#8fb3c9;
+            --gunmetal:#4a5d6b;
+            --text-bright:#f0f4f7;
+            --text-primary:#c9d3db;
+            --text-secondary:#8a9aa8;
+            --text-muted:#566573;
+            --border:rgba(107, 143, 163, 0.08);
+            --border-light:rgba(107, 143, 163, 0.15);
+            --font-display:'Arial Black', 'Helvetica Neue', sans-serif;
+            --font-body:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        html { scroll-behavior:smooth; }
+        body { font-family:var(--font-body); background:var(--bg-void); color:var(--text-primary); line-height:1.7; }
+        .scanlines {
+            position:fixed; top:0; left:0; width:100%; height:100%;
+            pointer-events:none; z-index:9999;
+            background:repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);
+        }
+        .nav {
+            position:fixed; top:0; left:0; right:0; z-index:1000;
+            padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center;
+            background:rgba(8, 7, 6, 0.95); backdrop-filter:blur(20px); border-bottom:1px solid var(--border);
+        }
+        .nav-logo { display:flex; align-items:center; gap:0.75rem; text-decoration:none; color:var(--text-bright); }
+        .nav-logo svg { width:40px; height:40px; }
+        .nav-logo-text { display:flex; flex-direction:column; line-height:1.1; }
+        .nav-logo-name { font-family:var(--font-display); font-size:0.9rem; letter-spacing:0.05em; }
+        .nav-logo-tagline { font-size:0.55rem; color:var(--text-muted); letter-spacing:0.22em; text-transform:uppercase; }
+        .nav-links { display:flex; align-items:center; gap:2rem; }
+        .nav-link { color:var(--text-secondary); text-decoration:none; font-size:0.85rem; transition:color 0.3s ease; }
+        .nav-link:hover { color:var(--steel); }
+        .nav-cta {
+            background:linear-gradient(135deg, var(--steel), var(--gunmetal)); color:var(--bg-void);
+            padding:0.6rem 1.25rem; border-radius:4px; text-decoration:none; font-size:0.85rem; font-weight:600;
+        }
+        .nav-toggle { display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:5px; }
+        .nav-toggle span { width:24px; height:2px; background:#12161B; }
+
+        .page-header {
+            padding:8rem 2rem 4rem; text-align:center;
+            background:var(--bg-deep); border-bottom:1px solid var(--border);
+        }
+        .page-title { font-family:var(--font-display); font-size:clamp(2rem, 5vw, 3rem); color:var(--text-bright); margin-bottom:1rem; }
+        .page-subtitle { color:var(--text-secondary); }
+
+        .content { max-width:800px; margin:0 auto; padding:4rem 2rem; }
+        .content h2 { font-family:var(--font-display); font-size:1.25rem; color:var(--steel); margin:2rem 0 1rem; }
+        .content h2:first-of-type { margin-top:0; }
+        .content p { margin-bottom:1rem; color:var(--text-primary); }
+        .content a { color:var(--steel); text-decoration:none; }
+        .content a:hover { color:var(--steel-light); }
+
+        .footer {
+            background:var(--bg-deep); border-top:1px solid var(--border);
+            padding:3rem 2rem; text-align:center;
+        }
+        .footer-copy { color:var(--text-muted); font-size:0.85rem; }
+        .footer-copy a { color:var(--text-secondary); text-decoration:none; }
+        .footer-copy a:hover { color:var(--steel); }
+        .footer-links { margin-top:1rem; display:flex; justify-content:center; gap:2rem; }
+        .footer-links a { color:var(--text-muted); text-decoration:none; font-size:0.85rem; }
+        .footer-links a:hover { color:var(--steel); }
+
+        @media (max-width:768px) {
+            .nav-links { display:none; position:absolute; top:100%; left:0; right:0; background:rgba(8, 7, 6, 0.98); flex-direction:column; padding:2rem; gap:1.5rem; border-bottom:1px solid var(--border); }
+            .nav-links.active { display:flex; }
+            .nav-toggle { display:flex; }
+        }
+    </style>
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#0B0D10">
+<style id="ntn-brand">
+:root{
+--accent:#00E5FD;--accent-dim:#00B9CC;--accent-ink:#04202A;
+--steel:#F2F4F7;--steel-light:rgba(242,244,247,.64);--gunmetal:rgba(242,244,247,.42);--text-bright:#F2F4F7;
+--gold:#00E5FD;--gold-light:#7CF1FF;--gold-dark:#00E5FD;
+--bg-main:#0B0D10;--bg-void:#0B0D10;--bg-dark:#0B0D10;--dark:#0B0D10;--darker:#07090B;
+--bg-section:#12161B;--bg-card:#12161B;--bg-elevated:#171C22;--bg-deep:#07090B;
+--bg-card-hover:#171C22;--bg-glass:rgba(255,255,255,.03);
+--text-primary:#F2F4F7;--text:#F2F4F7;--text-secondary:rgba(242,244,247,.64);
+--text-muted:rgba(242,244,247,.42);--gray:rgba(242,244,247,.64);--light-gray:rgba(242,244,247,.42);
+--border-subtle:rgba(255,255,255,.08);--border-gold:rgba(255,255,255,.08);--border-active:#00E5FD;
+--spot-gold:rgba(0,229,253,.14);--spot-orange:rgba(0,229,253,.10);
+--sunset-orange:#00C9E0;--sunset-red:#00B9CC;
+--font-display:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;
+--font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+html,body{background:#0B0D10;color:#F2F4F7}
+h1,h2,h3,h4{color:var(--text-primary)}
+a{color:#00E5FD}
+.header,header.header{background:rgba(11,13,16,.9);border-bottom:1px solid rgba(255,255,255,.05);box-shadow:none}
+.logo-img{height:38px;width:auto;max-width:none}
+.nav-links a{color:rgba(242,244,247,.64)}
+.nav-links a:hover{color:#F2F4F7}
+.nav-phone,.header-phone{color:#00E5FD}
+.nav-cta,.cta-button,.btn-primary,button[type=submit],input[type=submit]{background:#00E5FD;color:#04202A;border-color:#00E5FD}
+.nav-cta:hover,.cta-button:hover,.btn-primary:hover{background:#7CF1FF;color:#04202A}
+.cta-box,.card,.service-card,.testimonial-card,.product-card{background:#12161B;border:1px solid rgba(255,255,255,.08);box-shadow:none}
+.article-header{background:#12161B}
+.article-content h1,.article-content h2,.article-content h3,.article-content h4{color:#F2F4F7}
+.article-content p,.article-content li{color:rgba(242,244,247,.64)}
+.footer,footer.footer,footer{background:#0B0D10;border-top:1px solid rgba(255,255,255,.05)}
+.footer p,footer p{color:rgba(242,244,247,.42)}
+.footer a,footer a{color:rgba(242,244,247,.42)}
+.footer a:hover,footer a:hover{color:#00E5FD}
+input,textarea,select{background:#12161B;color:#F2F4F7;border:1px solid rgba(255,255,255,.08)}
+input::placeholder,textarea::placeholder{color:rgba(242,244,247,.42)}
+hr{border-color:rgba(255,255,255,.08)}
+</style>
+</head>
+<body>
+    <div class="scanlines"></div>
+
+    <nav class="nav">
+        <a href="index.html" class="nav-logo" aria-label="Wyoming Teleprompter home" style="display:inline-block;line-height:0;text-decoration:none"><img src="/logo-header.png" alt="Wyoming Teleprompter" style="height:36px;width:auto;display:block"></a>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html#services" class="nav-link">Services</a>
+            <a href="index.html#coverage" class="nav-link">Coverage</a>
+            <a href="https://nationalteleprompter.com" class="nav-link" target="_blank">Network</a>
+            <a href="index.html#contact" class="nav-cta">Get a Quote</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <header class="page-header">
+        <h1 class="page-title">Privacy Policy</h1>
+        <p class="page-subtitle">Last updated: December 2024</p>
+    </header>
+
+    <main class="content">
+        <h2>Introduction</h2>
+        <p>Wyoming Teleprompter ("we," "our," or "us"), a subsidiary of Claduta Corp, respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services.</p>
+
+        <h2>Information We Collect</h2>
+        <p>We may collect the following types of information:</p>
+        <p><strong>Contact Information:</strong> Name, email address, phone number, and company name when you submit our contact form or request a quote.</p>
+        <p><strong>Event Information:</strong> Details about your event, including location, date, and production requirements.</p>
+        <p><strong>Usage Data:</strong> Information about how you interact with our website, including pages visited and time spent on the site.</p>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <p>• Respond to your inquiries and provide quotes for our services</p>
+        <p>• Communicate with you about your events and our services</p>
+        <p>• Improve our website and services</p>
+        <p>• Comply with legal obligations</p>
+
+        <h2>Information Sharing</h2>
+        <p>We do not sell, trade, or otherwise transfer your personal information to third parties except as necessary to provide our services or as required by law. We may share information within the National Teleprompter network and with our parent company, Claduta Corp, for operational purposes.</p>
+
+        <h2>Data Security</h2>
+        <p>We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>Our website uses Formspree for form submissions. Your form data is processed according to Formspree's privacy policy. We recommend reviewing their privacy practices.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <p>• Access the personal information we hold about you</p>
+        <p>• Request correction of inaccurate information</p>
+        <p>• Request deletion of your personal information</p>
+        <p>• Opt out of marketing communications</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this privacy policy or our data practices, please contact us at:</p>
+        <p>Email: <a href="mailto:info@cladutacorp.com">info@cladutacorp.com</a></p>
+        <p>Phone: <a href="tel:727-623-2652">727-623-2652</a></p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-copy">© 2024 Wyoming Teleprompter. A subsidiary of <a href="https://cladutacorp.com" target="_blank">Claduta Corp</a></p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="terms.html">Terms</a>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+    </script>
+</body>
+</html>
